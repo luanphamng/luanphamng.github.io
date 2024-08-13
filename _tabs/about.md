@@ -4,5 +4,5 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+> Hello and welcome to CodeCircuits.com! Dive into the world of embedded systems with us! We share insights on coding, design, and bringing products to life. Start your journey today!
 {: .prompt-tip }
