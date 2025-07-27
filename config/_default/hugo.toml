@@ -27,5 +27,24 @@ home = ["HTML", "RSS", "JSON"]
 pagerSize = 10
 
 [caches]
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = -1 # -1 means never expire, 0 disables
+  [caches.getcsv]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  [caches.getjson]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  [caches.getresource]
+    dir = ":cacheDir/:project"
+    maxAge = -1
   [caches.images]
-    dir = ':cacheDir/images'
+    dir = ":resourceDir/_gen"
+    maxAge = -1
+  [caches.misc]
+    dir = ":cacheDir/:project"
+    maxAge = -1
+  [caches.modules]
+    dir = ":cacheDir/modules"
+    maxAge = -1
