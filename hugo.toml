@@ -1,0 +1,7 @@
+baseURL = 'https://codecircuits.com/'
+languageCode = 'en-us'
+title = 'Code Circuits'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

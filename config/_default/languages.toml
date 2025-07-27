@@ -1,0 +1,11 @@
+[en]
+  title = "Code Circuits"
+  LanguageName = "English"
+  weight = 1
+
+[vi]
+  title = "Code Circuits" # just for the sake of showing this is possible
+  LanguageName = "Vietnamese"
+  weight = 2
+
+  # tip: assign the default language the lowest Weight
