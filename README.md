@@ -1,23 +1,100 @@
-# hugoBasicExample
+# Code Circuits
 
-This repository offers an example site for [Hugo](https://gohugo.io/) and also it provides the default content for demos hosted on the [Hugo Themes Showcase](https://themes.gohugo.io/).
+Personal blog built with [Hugo](https://gohugo.io/) and the [Clarity](https://github.com/chipzoller/hugo-clarity) theme.
 
-# Using
+## Environment Setup
 
-1. [Install Hugo](https://gohugo.io/overview/installing/)
-2. Clone this repository
+### Prerequisites
+
+- Go 1.21+
+- Hugo Extended 0.110+ (recommended: latest version)
+
+### Install Hugo
+
+**Ubuntu/Debian (via Snap):**
 ```bash
-git clone https://github.com/gohugoio/hugoBasicExample.git
-cd hugoBasicExample
+sudo snap install hugo --channel=extended
 ```
-3. Clone the repository you want to test. If you want to test all Hugo Themes then follow the instructions provided [here](https://github.com/gohugoio/hugoThemes#installing-all-themes)
-4. Run Hugo and select the theme of your choosing
-```bash
-hugo server -t YOURTHEME
-```
-5. Under `/content/` this repository contains the following:
-- A section called `/post/` with sample markdown content
-- A headless bundle called `homepage` that you may want to use for single page applications. You can find instructions about headless bundles over [here](https://gohugo.io/content-management/page-bundles/#headless-bundle)
-- An `about.md` that is intended to provide the `/about/` page for a theme demo
-6. If you intend to build a theme that does not fit in the content structure provided in this repository, then you are still more than welcome to submit it for review at the [Hugo Themes](https://github.com/gohugoio/hugoThemes/issues) repository
 
+**macOS (via Homebrew):**
+```bash
+brew install hugo
+```
+
+**Windows (via Chocolatey):**
+```bash
+choco install hugo-extended
+```
+
+### Clone and Setup
+
+```bash
+git clone <repository-url>
+cd <repository-folder>
+hugo mod get -u
+```
+
+### Run Development Server
+
+```bash
+hugo server -D
+```
+
+Site will be available at `http://localhost:1313/`
+
+## Writing Posts
+
+### Create a New Post
+
+```bash
+hugo new content/post/your-post-title.md
+```
+
+### Post Front Matter
+
+Each post uses TOML front matter:
+
+```toml
++++
+author = "Your Name"
+title = "Post Title"
+date = "2024-01-15"
+description = "Brief description for SEO."
+tags = ["tag1", "tag2"]
+thumbnail = "images/post_thump/image.jpg"
+draft = true
++++
+```
+
+### Front Matter Options
+
+| Field | Description |
+|-------|-------------|
+| `author` | Post author name |
+| `title` | Post title |
+| `date` | Publication date (YYYY-MM-DD) |
+| `description` | SEO description |
+| `tags` | List of tags |
+| `thumbnail` | Thumbnail image path |
+| `draft` | Set `false` to publish |
+
+### Publishing
+
+1. Set `draft = false` in front matter
+2. Build the site:
+   ```bash
+   hugo
+   ```
+3. Output will be in the `public/` folder
+
+## Project Structure
+
+```
+├── archetypes/     # Post templates
+├── config/         # Hugo configuration
+├── content/        # Markdown content
+│   └── post/       # Blog posts
+├── layouts/        # Custom layouts
+├── static/         # Static assets (images, etc.)
+└── public/         # Generated site (gitignored)
+```

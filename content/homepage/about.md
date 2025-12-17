@@ -1,7 +1,7 @@
 ---
-title: 'Our Difference'
-button: 'About us'
+title: 'Sharing Knowledge'
+button: 'About Me'
 weight: 2
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Ipsum dolor sit amet, et essent mediocritatem quo.
+Beyond development, I'm passionate about education. I create free YouTube tutorials for students learning embedded systems and contribute to KiCad, the open-source PCB design tool.

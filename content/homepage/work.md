@@ -1,7 +1,7 @@
 ---
-title: 'We Help Business Grow'
-button: 'Our Work'
+title: 'Embedded Systems Expert'
+button: 'View Projects'
 weight: 1
 ---
 
-Lorem ipsum dolor sit amet, et essent mediocritatem quo, choro volumus oporteat an mei. Numquam dolores mel eu, mea docendi omittantur et, mea ea duis erat. Elit melius cu ius. Per ex novum tantas putant, ei his nullam aliquam apeirian. Aeterno quaestio constituto sea an, no eum intellegat assueverit.
+With 11 years of experience in the Automotive industry, I specialize in Linux and Android embedded development. I've delivered 25+ projects from prototypes to production systems, combining hardware expertise with robust software solutions.
