@@ -3,6 +3,11 @@ languageCode = 'en-us'
 title = 'Code Circuits'
 theme = 'github.com/chipzoller/hugo-clarity'
 
+
+[author]
+  name = "Luan Pham"
+  email = "contact@codecircuits.com"
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

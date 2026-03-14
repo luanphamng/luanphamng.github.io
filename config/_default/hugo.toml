@@ -2,7 +2,7 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://codecircuits.com/" # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
-copyright = "Copyright © 2019–2025, Luan Pham and the Hugo Clarity Authors; all rights reserved."
+copyright = "Copyright © 2019–2026, Luan Pham; all rights reserved."
 # canonifyurls = true
 
 theme = ["github.com/chipzoller/hugo-clarity"]
@@ -30,12 +30,6 @@ pagerSize = 10
   [caches.assets]
     dir = ":resourceDir/_gen"
     maxAge = -1 # -1 means never expire, 0 disables
-  [caches.getcsv]
-    dir = ":cacheDir/:project"
-    maxAge = -1
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = -1
   [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = -1
