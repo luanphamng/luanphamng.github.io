@@ -14,7 +14,7 @@ With this reference guide, you can:
 - Avoid frequent searches for common commands
 - Keep your workflow smooth and distraction-free
 
-![Essential Linux Commands Quick Reference Guide](common/img/posts/linux/essential_linux_cmd.png)
+![Essential Linux Commands Quick Reference Guide](/images/post_content/essential_linux_cmd.png)
 
 ## What’s inside
 This infographic covers:

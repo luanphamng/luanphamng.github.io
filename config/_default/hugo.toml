@@ -2,40 +2,71 @@
 # if you set it to "/" share icons won't work properly on production
 baseurl = "https://codecircuits.com/" # Include trailing slash
 # title = "Clarity"  # Edit directly from config/_default/languages.toml # alternatively, uncomment this and remove `title` entry from the aforemention file.
-copyright = "Copyright © 2019–2025, Luan Pham and the Hugo Clarity Authors; all rights reserved."
+copyright = "Copyright © 2019–2026, Luan Pham and the Hugo Clarity Authors; all rights reserved."
 # canonifyurls = true
 
-theme = ["github.com/chipzoller/hugo-clarity"]
-disqusShortname = ""
+title = "Code Circuits"
+languageCode = "en-us"
+# paginate = "10" # DEPRECATED! Use pagination.pagerSize below
+theme = "roadster"
+# disqusShortname = "" # DEPRECATED! Use .Services.Disqus.Shortname below
+# googleAnalytics = "" # DEPRECATED! Use .Services.googleAnalytics.ID below
 
-DefaultContentLanguage = "en"
-# [languages]
-# config/_default/languages.toml
+# Configure Pagination. See https://gohugo.io/templates/pagination/#configuration
+[pagination]
+  pagerSize = 10 # (int) The number of pages per pager. Default is 10
 
-# [menus]
-# config/_default/menus/menu.xx.toml
+[services]
+  [services.googleAnalytics]
+    id = 'G-MEASUREMENT_ID'  # Enable Google Analytics by entering your tracking id
+  [services.disqus]
+    shortname = 'your-disqus-shortname' # Enable Disqus by entering your Disqus shortname
 
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  author = "authors"
 
-[outputs]
-home = ["HTML", "RSS", "JSON"]
+# Goldmark renders raw HTML mixed within the Markdown
+[markup.goldmark.renderer]
+  unsafe = true # N.B. This is unsafe unless the content is under your control.  Set to false if you don't mix HTML with markdown.
 
-[pagination]
-pagerSize = 10
+[Params]
+  description = "Luan Pham's Personal blog about the Embedded, Linux and practical AI Automation"
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["post", "docs"]
+  CustomHeadHTML = "" # Add custom HTML in the <head> 
+
+[params.author]
+  name = "Luan Pham"
+  bio = "Luan Pham is an embedded software engineer."
+  avatar = "img/avatar.png"
+
+[Params.logo]
+  subtitle = "Software, Tech, Green Life and Hobbies" # Logo subtitle
+  title = ""
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
 
 [caches]
   [caches.assets]
     dir = ":resourceDir/_gen"
     maxAge = -1 # -1 means never expire, 0 disables
-  [caches.getcsv]
-    dir = ":cacheDir/:project"
-    maxAge = -1
-  [caches.getjson]
-    dir = ":cacheDir/:project"
-    maxAge = -1
   [caches.getresource]
     dir = ":cacheDir/:project"
     maxAge = -1

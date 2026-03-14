@@ -51,8 +51,10 @@ fontsDir = "fonts/" # without a leading forward slash
 # when a given page has no other image present.
 fallBackOgImage = "images/thumbnail.png"
 
-# Logo image
-logo = "logos/cc_logo.png"
+# Logo configuration
+[logo]
+title = "Code Circuits"
+subtitle = "Software, Tech, Life and Hobbies"
 
 # center logo on navbar
 centerLogo = false # Set to "true" for centering or "false" for left aligned.

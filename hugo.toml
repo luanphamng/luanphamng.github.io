@@ -1,7 +1,10 @@
 baseURL = 'https://codecircuits.com/'
 languageCode = 'en-us'
-title = 'Code Circuits'
-theme = 'github.com/chipzoller/hugo-clarity'
+title = "Code Circuits"
+theme = 'github.com/mansoorbarri/Roadster'
+
+[author]
+email = ""
 
 [caches]
   [caches.images]
