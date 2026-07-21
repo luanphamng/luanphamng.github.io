@@ -1,33 +1,97 @@
 +++
 title = "About"
-description = "Embedded Software Developer | Linux & Android | YouTube Educator | Open Source Contributor"
+description = "Embedded Software & Automotive Engineering"
 date = "2024-01-01"
 aliases = ["about-us", "about-hugo", "contact"]
 author = "Luan Pham"
 +++
 
-## Hi, I'm Luan Pham 👋
+# About
 
-I'm an Embedded Software Developer with 11 years of experience in the Automotive industry. My expertise lies in Linux and Android embedded systems, where I've successfully delivered 25+ projects ranging from small prototypes to large-scale production systems.
+Hi, I'm **Luan Pham**, admin of CodeCircuits.com 👋
 
-## What I Do
+I'm an embedded software engineer with **11+ years of experience**, including **7+ years working in the automotive industry**.
 
-### 💻 Embedded Development
-I specialize in developing embedded software for Linux and Android platforms. My work spans across various automotive applications, bringing together hardware and software to create reliable, efficient systems.
+Most of my work has been around **Embedded Linux, Android, and automotive systems**. I've worked on more than **25 projects**, from small prototypes and proof-of-concepts to larger production systems.
 
-### 🎬 YouTube Educator
-I'm passionate about sharing knowledge. On my YouTube channel, I publish free educational videos to help students and developers learn embedded systems, making complex topics accessible to everyone.
+Over the years, I've had the chance to work on different parts of the embedded world. I enjoy getting close to the system, figuring out why something isn't working, and finding a practical solution.
 
-### 🔧 Open Source Contributor
-I actively contribute to [KiCad](https://www.kicad.org/), the open-source electronics design automation suite. I believe in giving back to the community that has helped me grow as an engineer.
+## What I work with
 
-## Experience Highlights
+### Embedded Software
 
-- **11 years** in Automotive embedded systems
-- **25+ projects** completed (from small to large scale)
-- **Linux & Android** embedded specialist
-- **Open source** advocate and contributor
+My main area of work is embedded software development. I've worked with Linux, Android, and microcontroller-based systems, including:
 
-## Let's Connect
+* Embedded Linux
+* Android / Android Automotive (AOSP)
+* Embedded firmware
+* ESP32
+* System-level software
+* Hardware and software integration
+* Debugging and troubleshooting
 
-Feel free to reach out if you want to collaborate, learn, or just chat about embedded systems!
+### Automotive
+
+I've spent more than **7 years working with automotive embedded systems**.
+
+Some of the areas I've worked with include:
+
+* Android Automotive / AOSP
+* UDS and OBD-II
+* CAN communication
+* Automotive diagnostics
+* Software integration
+* System validation and testing
+
+### ESP32 & IoT
+
+I also enjoy working on smaller embedded projects and prototypes using **ESP32**.
+
+This includes things like:
+
+* ESP32 firmware
+* Sensors and peripherals
+* Wi-Fi and Bluetooth
+* IoT devices
+* Communication protocols
+* Rapid prototyping
+
+I like these projects because they often start with a simple idea and turn into something you can actually put your hands on and test.
+
+### Test Automation
+
+I've worked with **Robot Framework** and automated testing for embedded and automotive systems.
+
+My work has included building test cases, automating repetitive testing tasks, and helping make embedded software validation more reliable and repeatable.
+
+### Industrial Automation
+
+Earlier in my career, I also spent around **3 years working with PLC programming and industrial automation**.
+
+Although my main focus today is embedded software and automotive systems, that experience gave me a good understanding of how software interacts with real machines and control systems.
+
+## A few things about my experience
+
+* 11+ years in embedded software development
+* 7+ years in automotive embedded systems
+* 25+ projects, from prototypes to production systems
+* Embedded Linux and Android
+* Android Automotive / AOSP
+* Automotive diagnostics, UDS / OBD-II, and CAN
+* ESP32 and IoT development
+* Robot Framework and test automation
+* 3+ years of PLC programming and industrial automation
+
+## What I'm interested in
+
+I'm interested in working on challenging embedded projects where I can use my experience to help solve real problems.
+
+That might be developing firmware for an ESP32 device, debugging an Embedded Linux system, working with Android Automotive, building automated tests, or helping with an automotive diagnostics project.
+
+I'm based in **Da Nang, Vietnam**, and I'm open to working with engineering teams, startups, and companies from Vietnam and around the world.
+
+If you have an interesting embedded or automotive project, feel free to **get in touch**.
+
+Thanks for stopping by!
+
+**Luan**

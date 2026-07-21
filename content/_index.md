@@ -1,5 +1,5 @@
 +++
 author = "Luan Pham"
-description = "Embedded Software Developer specializing in Linux & Android systems. 11+ years in Automotive. YouTube educator and KiCad open source contributor."
+description = "Embedded Software & Automotive Engineering"
 keywords = ["embedded systems", "linux", "android", "automotive", "RTOS", "KiCad", "embedded development"]
 +++

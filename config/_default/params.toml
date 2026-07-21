@@ -3,8 +3,8 @@ enableSearch = true
 
 # socials
 # twitter = "@luantechautomation"
-largeTwitterCard = false                                                                          # set to true if you want to show a large twitter card image. The default is a small twitter card image
-introDescription = "Embedded Software Developer | Linux & Android | 11+ Years Automotive | YouTube Educator"
+largeTwitterCard = false # set to true if you want to show a large twitter card image. The default is a small twitter card image
+introDescription = "Embedded Linux • Firmware • Android Automotive • Test Automation"
 introURL = "about/" # set the url for the 'read more' button below the introDescription, or set to false to not show the button
 # description = "A theme based on VMware's Clarity Design System for publishing technical blogs with Hugo." # Set your site's meta tag (SEO) description here. Alternatively set this description in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
 # keywords = ["design", "clarity", "hugo theme"] # Set your site's meta tag (SEO) keywords here. Alternatively set these in your home page content file e.g. content/_index.md. Whatever is set in the latter will take precedence.
@@ -173,7 +173,7 @@ matomoSiteID = "1"                  # Default is set to 1, change this to the si
 # umami_data_website_id = "GUID-8-4-4-4-12" # Umami Analytics data website id - GUID format (8-4-4-4-12)
 # umami_script_url = "https://cloud.umami.is/script.js" # Umami Analytics script URL
 
-[cdn] # a CDN shortcode to generate links for your images and files in buckets such as B2, S3, etc.  
+[cdn] # a CDN shortcode to generate links for your images and files in buckets such as B2, S3, etc.
 url = "https://some.url.scheme/"  # your base CDN url such as "https://images.site.com/" (including the trailing slash)
 imagesdir = "images/"             # Include trailing slash -- this is where you store images
 filesdir = "files/"               # Include trailing slash -- this is where you store files to be downloaded
