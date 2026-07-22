@@ -1,18 +1,13 @@
 [[main]]
   name = "Home"
   url = ""
-  weight = -110
-
-[[main]]
-  name = "Archives"
-  url = "post/rich-content/"
-  weight = -109
+  weight = -1
 
 # Submenus are done this way: parent -> identifier
 [[main]]
   name = "Services"
   identifier = "Services"
-  weight = 30
+  weight = 1
 [[main]]
   parent = "Services"
   name = "All Services"
@@ -35,9 +30,19 @@
   weight = 3
 
 [[main]]
+  name = "Projects"
+  identifier = "Projects"
+  weight = 2
+[[main]]
+  parent = "Projects"
+  name = "All Projects"
+  url = "projects"
+  weight = 0
+
+[[main]]
   name = "About"
   url = "about/"
-  weight = -107
+  weight = 3
 
 # social menu links
 
